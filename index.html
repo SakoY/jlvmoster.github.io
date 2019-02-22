@@ -23,61 +23,145 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-  <!-- Header -->
+<body data-spy="scroll" data-target="#navigation">
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav id="navigation" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
       <a href="https://github.com/jlvmoster" class="navbar-brand" target="_blank">jlvmoster</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <div class="navbar-nav">
-          <a href="#" class="nav-item nav-link active">Home</a>
-          <a href="#" class="nav-item nav-link">Projects</a>
-          <a href="#" class="nav-item nav-link">About Me</a>
-          <a href="#" class="nav-item nav-link">Contact</a>
-        </div>
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a href="#HOME" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#ABOUTME" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#PROJECTS" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#CONTACT" class="nav-link">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
 
-  <section>
-    <div class="jumbotron jumbotron-fluid text-center">
+  <section id="HOME">
+    <div class="jumbotron text-center">
       <div class="container">
-        <h1 class="display-4">Hi, I'm Jalo!</h1>
-        <p class="lead">Welcome to my website!</p>
+        <h1 class="display-2">Hi, I'm Jalo</h1>
+        <p class="lead">and this is my website</p>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="ABOUTME">
     <div class="container">
+      <div class="row mt-4 mb-4">
+        <div class="col text-center pagination-centered">
+          <h2 class="display-4">About Me</h2>
+          <img src="assets/img/headshot-0.jpg" alt="headshot" class="rounded-circle w-25 mx-auto">
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-4">
           <h3>Column 1</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
-            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto assumenda
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
             sed cum saepe quidem! Similique.</p>
         </div>
         <div class="col-sm-4">
           <h3>Column 2</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
-            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto assumenda
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
             sed cum saepe quidem! Similique.</p>
         </div>
         <div class="col-sm-4">
           <h3>Column 3</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
-            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto assumenda
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
             sed cum saepe quidem! Similique.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <section id="PROJECTS">
+    <div class="container">
+      <div class="row mt-4 mb-4">
+        <div class="col-sm text-center">
+          <h1>
+            Projects
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
+            sed cum saepe quidem! Similique.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
+            sed cum saepe quidem! Similique.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
+            sed cum saepe quidem! Similique.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="CONTACT">
+    <div class="container">
+      <div class="row mt-4 mb-4">
+        <div class="col-sm text-center">
+          <h1>
+            Contact
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
+            sed cum saepe quidem! Similique.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
+            sed cum saepe quidem! Similique.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti suscipit consequuntur
+            cupiditate quia praesentium, veritatis, numquam dolore, libero eaque laudantium impedit quo iusto
+            assumenda
+            sed cum saepe quidem! Similique.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

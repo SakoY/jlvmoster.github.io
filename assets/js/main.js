@@ -3,7 +3,7 @@ $(document).ready(function () {
   var headerHeight = $('#navigation').outerHeight();
 
   // fix body offset from the header section
-  $('body').attr('data-offset', headerHeight + 'px');
+  $('body').attr('data-offset', headerHeight);
   $('body').css('padding-top', headerHeight + 'px');
 
   // fix section anchor offset from the header section

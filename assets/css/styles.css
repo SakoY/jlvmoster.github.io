@@ -7,3 +7,9 @@ html {
 #CONTACT {
   margin-bottom: 500px;
 }
+
+#jumbotron-home {
+  background-image: url("../img/jumbotron-home.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
